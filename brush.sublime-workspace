@@ -1,0 +1,635 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"s",
+				"styles"
+			],
+			[
+				"ve",
+				"vertical-align"
+			],
+			[
+				"form",
+				"form-wrapper"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"inlne",
+				"inline-block"
+			],
+			[
+				"sc",
+				"script"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"w",
+				"writeMesssage"
+			],
+			[
+				"cha",
+				"chat_color"
+			],
+			[
+				"me",
+				"messages_color"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"for",
+				"form	Tag"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"sass",
+				"grunt-sass"
+			],
+			[
+				"t",
+				"tasks"
+			],
+			[
+				"op",
+				"options"
+			],
+			[
+				"p",
+				"port"
+			],
+			[
+				"pr",
+				"printstring"
+			],
+			[
+				"i",
+				"img	Tag"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"bac",
+				"background-fixed"
+			],
+			[
+				"ta",
+				"table-column"
+			],
+			[
+				"tab",
+				"table-cell"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"Op",
+				"expressOptions"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "sssas",
+		"selected_items":
+		[
+			[
+				"sssas",
+				"Set Syntax: Sass"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ssht",
+				"Set Syntax: HTML"
+			],
+			[
+				"ssass",
+				"Set Syntax: Sass"
+			],
+			[
+				"ssjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"jade",
+				"Set Syntax: Jade"
+			],
+			[
+				"pre",
+				"HTMLPrettify"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ssjad",
+				"Set Syntax: Jade"
+			],
+			[
+				"ss",
+				"Set Syntax: HTML"
+			],
+			[
+				"sa",
+				"Set Syntax: Sass"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"sssa",
+				"Set Syntax: Sass"
+			],
+			[
+				"sss",
+				"Set Syntax: Sass"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"format s",
+				"Format CSS: Expanded"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"s",
+				"SassBeautify"
+			],
+			[
+				"sas",
+				"SassBeautify"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pret",
+				"HTMLPrettify"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"htm",
+				"HTMLPrettify"
+			],
+			[
+				"ssj",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 408.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/code/sandbox/brush"
+	],
+	"file_history":
+	[
+		"/E/code/sandbox/brush/source/style/sass/style.sass",
+		"/E/code/sandbox/brush/gulpfile.js",
+		"/E/code/sandbox/brush/build/styles/style.css",
+		"/E/code/sandbox/brush/source/styles/style.sass",
+		"/E/code/sandbox/splash/source/view/jade/index.jade",
+		"/E/code/sandbox/splash/source/script/app.js",
+		"/C/Users/redpa_000/Desktop/temp/notes/english dictionary",
+		"/E/code/sandbox/splash/Gruntfile.js",
+		"/E/code/sandbox/splash/source/style/sass/style.sass",
+		"/E/code/sandbox/notepad/base.html",
+		"/E/code/sandbox/splash/build/index.html",
+		"/F/english/word/a.htm",
+		"/E/code/sandbox/splash/build/style/style.css",
+		"/C/Program Files (x86)/Google/Chrome/Application/master_preferences",
+		"/E/code/sandbox/shortcuts/public/shortcuts.html",
+		"/C/Users/redpa_000/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/redpa_000/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/D/systemdata/system_temp/Rar$DIa0.159/bootstrap-theme.css",
+		"/D/systemdata/system_temp/Rar$DIa0.879/bootstrap.css.map",
+		"/D/systemdata/system_temp/Rar$DIa0.989/npm.js",
+		"/E/Workspaces/MV/Andersen.MedVisor/Andersen.MedVisor.DomainModel/Entities/GlobalSettings.cs",
+		"/E/Workspaces/MV/Andersen.MedVisor/Andersen.MedVisor.DirectShow/DirectShow/DirectShowDevicesCollections.cs",
+		"/E/Workspaces/MV/Andersen.MedVisor/Andersen.MedVisor.DirectShow/DirectShow/DirectShowWrapper.cs",
+		"/E/Workspaces/MV/Andersen.MedVisor/Andersen.MedVisor.DirectShow/DirectShow/DirectShowStreamConfig.cs",
+		"/E/Workspaces/MV/Andersen.MedVisor/Andersen.MedVisor.DirectShow/DirectShow/DirectShowMediaTypesConstructor.cs",
+		"/E/Workspaces/MV/Andersen.MedVisor/Andersen.MedVisor.DirectShow/DirectShow/DirectShowGraph.cs",
+		"/E/Workspaces/MV/Andersen.MedVisor/Andersen.MedVisor.DirectShow/DirectShow/DirectShowControls.cs",
+		"/C/Users/redpa_000/Desktop/temp/notes/list",
+		"/E/code/sandbox/splash/source/view/jade/locals.json",
+		"/E/code/sandbox/splash/source/view/jade/partial/header.jade",
+		"/E/code/sandbox/splash/build/style/bootstrap.css",
+		"/E/code/sandbox/splash/build/script",
+		"/E/code/sandbox/splash/build/style",
+		"/E/code/sandbox/splash/build/css/style.css",
+		"/E/code/sandbox/splash/jade/index.jade",
+		"/E/code/sandbox/splash/sass/style.sass",
+		"/E/code/sandbox/splash/public/css/style.css",
+		"/E/index.html/index.html",
+		"/E/code/sandbox/splash/public/index.html",
+		"/C/Users/redpa_000/Desktop/jade.html",
+		"/C/Users/redpa_000/Desktop/jade.jade",
+		"/E/code/sandbox/splash/sass/floats.sass",
+		"/E/code/sandbox/splash/sass/floats.haml",
+		"/E/code/sandbox/splash/public/script/chatscript.js",
+		"/E/code/sandbox/splash/sass/chat.sass",
+		"/E/Workspaces/sandbox/publish/approot/src/WebApplication1/project.json",
+		"/E/Workspaces/sandbox/publish/approot/web.config",
+		"/E/Workspaces/sandbox/ConsoleApplication1/WebApplication1/wwwroot/web.config",
+		"/E/Workspaces/sandbox/publish/approot/global.json",
+		"/E/Workspaces/sandbox/publish/approot/web.cmd",
+		"/E/Workspaces/sandbox/publish/approot/web",
+		"/E/code/sandbox/splash/script/chatscript.js",
+		"/C/Users/redpa_000/Desktop/Games.txt",
+		"/C/Users/redpa_000/AppData/Roaming/Sublime Text 3/Packages/User/Chrome.sublime-build",
+		"/C/Users/redpa_000/AppData/Roaming/Sublime Text 3/Packages/User/OpenChrome.sublime-build",
+		"/C/Users/redpa_000/AppData/Roaming/Sublime Text 3/Packages/CSS Format/README.md",
+		"/E/code/sandbox/splash/scss/style.scss",
+		"/E/code/sandbox/splash/scss/style.sass",
+		"/E/code/sandbox/splash/package.json",
+		"/E/code/design/Gruntfile.js",
+		"/E/code/_temp/Gruntfile.js",
+		"/E/code/_temp/server/server.js",
+		"/E/code/design/server/server.js",
+		"/E/code/_temp/node_modules/grunt-contrib-uglify/README.md",
+		"/E/code/design/server/debug.js",
+		"/E/code/design/public/index.html",
+		"/E/code/_temp/public/shortcuts.html",
+		"/E/code/_temp/package.json",
+		"/E/code/_temp/node_modules/express/package.json",
+		"/D/downloads/webstorm/JetBrains WebStorm 11.0 Build 143.381 Incl.Crack - softasm.com/How To Install.txt",
+		"/D/downloads/webstorm/JetBrains WebStorm 11.0 Build 143.381 Incl.Crack - softasm.com/Patcher + Activation/ActivationCode.txt",
+		"/E/code/design/package.json",
+		"/E/code/design/scss/style.scss",
+		"/E/code/design/public/css/style.css",
+		"/E/code/design/design.html",
+		"/C/Users/redpa_000/AppData/Roaming/Sublime Text 3/Packages/EasyMotion/README.md",
+		"/C/Users/redpa_000/AppData/Roaming/Sublime Text 3/Installed Packages/Theme - Brogrammer.sublime-package",
+		"/D/systemdata/skype/ruslan_hrbcksq/main.db",
+		"/D/systemdata/system_temp/Rar$DIa0.846/HomeController.ts",
+		"/D/systemdata/system_temp/Rar$DIa0.424/ApiResult.cs",
+		"/D/systemdata/system_temp/Rar$DIa0.846/HomeController.js",
+		"/D/systemdata/system_temp/Rar$DIa0.579/less.json",
+		"/D/systemdata/system_temp/Rar$DIa0.708/ShoppingCartViewModel.cs",
+		"/D/systemdata/system_temp/Rar$DIa0.089/SmartJsonResult.cs",
+		"/E/Workspaces/cache.txt",
+		"/E/code/javascript/site/functions.js",
+		"/E/code/javascript/site/closures.js",
+		"/E/code/javascript/site/objects.js",
+		"/E/code/javascript/site/numbers.js",
+		"/E/code/javascript/site/null_undefined.js",
+		"/E/code/javascript/site/instructions.js",
+		"/E/code/javascript/site/types.js",
+		"/E/code/javascript/site/string.js",
+		"/E/code/javascript/site/script.js",
+		"/E/code/javascript/site/exceptions.js",
+		"/E/code/javascript/site/bool.js",
+		"/C/Users/redpa_000/Desktop/temp/notes/head.html",
+		"/E/code/examples/simple_site/index.html",
+		"/D/downloads/iExplorer_3.2.0.1 (Win)/iExplorer_3.2.0.1 Serial.txt",
+		"/C/Users/redpa_000/AppData/Local/clink/clink.log",
+		"/D/systemdata/system_temp/Rar$DIa0.449/CurseQuery.sql",
+		"/D/virtual_machines/yosemite - Copy/OS X Yosemite.vmx",
+		"/E/code/web_notepad.html",
+		"/E/code/_temp/scss/style-rtb.scss",
+		"/E/code/_temp/public/index.html",
+		"/E/code/_temp/scss/style.scss",
+		"/F/MMShell/SOFT.HTM",
+		"/D/downloads/5bdc8fbbe0994fd8a65c7b08a75465ec",
+		"/C/Users/redpa_000/Desktop/cache files/dictionary",
+		"/C/Users/redpa_000/Desktop/cache files/english dictionary",
+		"/C/Users/redpa_000/Desktop/cache files/list",
+		"/C/Users/redpa_000/Desktop/cache files/mt",
+		"/C/Users/redpa_000/Desktop/cache files/Not a long time ago, I posted an article adout how",
+		"/C/Users/redpa_000/Desktop/cache files/что можно поставить условную точку останова и приа",
+		"/E/code/_temp/public/example.html",
+		"/E/code/_temp/public/script.js",
+		"/E/code/_temp/public/css/style.css",
+		"/E/Workspaces/MedVisor/Andersen.MedVisor/Andersen.MedVisor.DirectShow/DirectShow/DirectShowWrapper.cs",
+		"/E/Workspaces/MedVisor/Andersen.MedVisor/Andersen.MedVisor.DirectShow/DirectShow/DirectShowGraph.cs",
+		"/E/Workspaces/MedVisor/Andersen.MedVisor/Andersen.MedVisor.DirectShow/DirectShow/DirectShowGrabber.cs",
+		"/D/systemdata/system_temp/Rar$DIa0.920/ПрочтиМеня!.txt",
+		"/D/downloads/insert_employees.sql",
+		"/C/Users/redpa_000/Desktop/cache files/dspt.js",
+		"/C/Users/redpa_000/Desktop/cache files/output.list",
+		"/C/Users/redpa_000/Desktop/2.img",
+		"/E/code/_temp/public/example_3.html",
+		"/E/code/_temp/public/style.css",
+		"/E/code/_temp/public/style.scss"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"0",
+			"required",
+			"value",
+			"\") ",
+			"\")",
+			"review",
+			"input",
+			"p",
+			"										|",
+			"input",
+			" \n",
+			"										|",
+			"\") ",
+			"1",
+			"text",
+			"\") ",
+			"1",
+			"input",
+			"input#",
+			"review.stars",
+			"review",
+			"список",
+			"list",
+			"list-style",
+			"list-style.",
+			"expand",
+			"\"\"",
+			"=\"\",",
+			"line",
+			"store.product",
+			"store.product.name",
+			"	",
+			"store.product.name",
+			"jump",
+			"clearfix",
+			"parti",
+			"73",
+			"sass:dist",
+			"ts_input",
+			"profile_full",
+			"profile_full_info",
+			"блочный",
+			"smoke",
+			";\n",
+			"white",
+			"font",
+			"';\n",
+			"position",
+			"width",
+			"привязать",
+			"B74AE348-2902-11E5-80F5-000C298AD30F",
+			"F4608145-1714-11E0-B195-18A90531858E",
+			"  ",
+			"F4608145-1714-11E0-B195-18A90531858E",
+			"CF93F8D8-5697-11E0-8A55-005056BA0008",
+			"content",
+			"visibi",
+			"..",
+			"mouse.vusb.absDisabled",
+			"keyboard.vusb.enable",
+			"sound.virtualDev",
+			"firmware",
+			"sata0:1.startConnected",
+			"ethernet0.virtualDev ",
+			"sound.virtualDev",
+			"firmware",
+			"keyboard.vusb.enable",
+			"mouse.vusb.absDisabled",
+			"smc.version",
+			"compilation",
+			"D:\\systemdata\\compilation",
+			"system.web"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"product.name",
+			" "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 98.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Jade Build/Jade.sublime-build",
+	"project": "brush.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"singalr"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

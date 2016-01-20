@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+html(lang="en", ng-app="chatapp")
+head
+	meta(charset="UTF-8")
+	meta(name="viewport", content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0")
+	title Brush	
+	link(rel="stylesheet", href="lib/css/bootstrap.css")
+	link(rel="stylesheet", href="lib/css/bootstrap-theme.css")
+	link(rel="stylesheet", href="styles/style.css")
+body
+	.container(ng-controller='ChatController as chat')
+		.messages#autoscroll
+			ul
+				li(ng-repeat='message in chat.messages', ng-class='{self: message.self, system: message.system}')
+					.message
+						span {{message.body}}
+		form.input-row(ng-submit='chat.sendMessage(chat.message)')
+			input.form-control.message-input(type='text', placeholder="Type a message", ng-model="chat.message.body")
+			button.btn.btn-primary.message-submit(ng-disabled='chat.checkMessage()')
+				.glyphicon.glyphicon-send.custom-ico
+				span Send
+	script(src="lib/js/jquery-2.1.4.js")
+	script(src="lib/js/bootstrap.js")
+	script(src="lib/js/angular.js")
+	script(src="script/helpers.js")
+	script(src="script/chatscript.js")
