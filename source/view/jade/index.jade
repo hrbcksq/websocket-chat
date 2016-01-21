@@ -7,6 +7,8 @@ head
 	link(rel="stylesheet", href="lib/css/bootstrap.css")
 	link(rel="stylesheet", href="lib/css/bootstrap-theme.css")
 	link(rel="stylesheet", href="styles/style.css")
+	link(rel="stylesheet", href="styles/scroll.css")
+	link(rel="stylesheet", href="styles/modal.css")
 body(ng-controller='ChatController as chat')
 	.navbar.navbar-inverse.navbar-fixed-top
 		.container-fluid
@@ -23,15 +25,7 @@ body(ng-controller='ChatController as chat')
 					li
 						a(href="") Sing					
 					li
-						a(href="") About
-			#modaldialog.modal.fade
-				#dialogContent.modal-dialog
-			.modal-content
-				.modal-header
-					button.close(data-dismiss='modal', area-hidden='true') X
-					h4 About
-				.modal-body
-					span Text
+						a(href="") About						
 	.container.body-content.messager
 		.row.messages-row.col-md-8.col-md-offset-2.col-sm-12
 				.messages#autoscroll
@@ -48,8 +42,16 @@ body(ng-controller='ChatController as chat')
 							span.input-group-btn
 								button.btn.btn-primary(ng-disabled='chat.checkMessage()')
 									.glyphicon.glyphicon-send.custom-ico
-									span Send	
-
+									span Send		
+	#modaldialog.modal.fade.container
+		.row					
+			#dialogContent.col-md-6.col-md-offset-3.col-sm-10
+				.modal-content
+					.modal-header
+						button.close(data-dismiss='modal', area-hidden='true') X
+						h4 About
+					.modal-body
+								span Text
 	script(src="lib/js/jquery-2.1.4.js")
 	script(src="lib/js/bootstrap.js")
 	script(src="lib/js/angular.js")
