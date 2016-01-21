@@ -1,11 +1,11 @@
 var defaultMessages = [
 		{
-			'sender': "",
+			'sender': "someone",
 			'body': 'Lorem ipsum',
-			'system': false
+			'system': false,			
 		},
 		{
-			'sender': "",
+			'sender': "someone",
 			'body': 'sit amet',
 			'system': false,
 			'self': true

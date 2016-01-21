@@ -5,9 +5,12 @@
 
     app.controller('ChatController', function($timeout) {    	
 
-        this.sender = guid();
+        // this.sender = guid();
+        this.sender = 'sender';
         // this.messages = [];
         this.messages = defaultMessages;
+
+        this.lastsender;
 
         this.clearMessage = function() {
             this.message = {
@@ -16,13 +19,16 @@
         };
 
         this.sendMessage = function(message) {  
-    		this.socket.send(JSON.stringify(message));
-            this.clearMessage();
-            // this.addMessage(message);
+    		// this.socket.send(JSON.stringify(message));
+            this.addMessage(message);
+            this.clearMessage();            
         };
 
         this.addMessage = function(message) {        	
         	message.self = !message.system && message.sender === this.sender;
+            message.sender = this.lastsender === message.sender && this.lastsender ? message.sender = '' : this.lastsender = message.sender;
+            // message.sender = this.messages[this.messages.length-1].sender 
+            //=== message.sender ? '' : message.sender;
             this.messages.push(message);
         	$timeout(scrollDown('autoscroll'), 100, false);
         };
@@ -42,23 +48,23 @@
 
         var controller = this;
 
-        this.socket = new WebSocket('ws://hrbcksq.com:8084')
+  //       this.socket = new WebSocket('ws://hrbcksq.com:8084')
 
-        this.socket.onopen = function(){
-        	controller.addSystemMessage("Hello, You are connected!")
-        };
+  //       this.socket.onopen = function(){
+  //       	controller.addSystemMessage("Hello, You are connected!")
+  //       };
 
-        this.socket.onclose = function(){
-        	controller.addSystemMessage("Connection closed!")
-        };
+  //       this.socket.onclose = function(){
+  //       	controller.addSystemMessage("Connection closed!")
+  //       };
 
-        this.socket.onerror = function(){
-        	controller.addSystemMessage("Error occurred")
-        };
+  //       this.socket.onerror = function(){
+  //       	controller.addSystemMessage("Error occurred")
+  //       };
 
-		this.socket.onmessage = function(message){
-        	controller.addMessage(JSON.parse(message.data));
-        };        
+		// this.socket.onmessage = function(message){
+  //       	controller.addMessage(JSON.parse(message.data));
+  //       };        
     });
 }());
 

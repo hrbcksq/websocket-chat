@@ -9,11 +9,11 @@ head
 	link(rel="stylesheet", href="styles/style.css")
 body(ng-controller='ChatController as chat')
 	.navbar.navbar-inverse.navbar-fixed-top
-		.container
+		.container-fluid
 			.navbar-header 
 				button(type="button", data-toggle="collapse", data-target=".navbar-collapse").navbar-toggle
 					span.icon-bar
-					span.icon-bar					
+					span.icon-bar
 				.navbar-brand Chat Application
 				p.navbar-text
 					span.hidden-xs Singed in as
@@ -25,21 +25,22 @@ body(ng-controller='ChatController as chat')
 					li
 						a(href="") About
 	.container.body-content.messager
-		.row.chat-row
-			.messages-row.col-md-8.col-md-offset-2.col-sm-12
+		.row.messages-row.col-md-8.col-md-offset-2.col-sm-12
 				.messages#autoscroll
 					ul
 						li(ng-repeat='message in chat.messages', ng-class='{self: message.self, system: message.system}')
+							small.nickname {{message.sender}}
 							.message
 								span {{message.body}}
-		.row.form-row
-			form.form-horizontal.input-row(ng-submit='chat.sendMessage(chat.message)')	
-				.form-group			
-					input.form-control.message-input.col-md-7(type='text', placeholder="Type a message", ng-model="chat.message.body")
-					button.btn.btn-primary.message-submit.col-md-4(ng-disabled='chat.checkMessage()')
-						.glyphicon.glyphicon-send.custom-ico
-						span Send
-					
+
+				.row.send-row
+					form(ng-submit='chat.sendMessage(chat.message)')
+						.input-group
+							input.form-control(type="text", placeholder="Type a message", ng-model="chat.message.body")
+							span.input-group-btn
+								button.btn.btn-primary(ng-disabled='chat.checkMessage()')
+									.glyphicon.glyphicon-send.custom-ico
+									span Send					
 	//- .container(ng-controller='ChatController as chat')
 	//- 	.messages#autoscroll
 	//- 		ul
