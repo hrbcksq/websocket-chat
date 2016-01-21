@@ -7,18 +7,50 @@ head
 	link(rel="stylesheet", href="lib/css/bootstrap.css")
 	link(rel="stylesheet", href="lib/css/bootstrap-theme.css")
 	link(rel="stylesheet", href="styles/style.css")
-body
-	.container(ng-controller='ChatController as chat')
-		.messages#autoscroll
-			ul
-				li(ng-repeat='message in chat.messages', ng-class='{self: message.self, system: message.system}')
-					.message
-						span {{message.body}}
-		form.input-row(ng-submit='chat.sendMessage(chat.message)')
-			input.form-control.message-input(type='text', placeholder="Type a message", ng-model="chat.message.body")
-			button.btn.btn-primary.message-submit(ng-disabled='chat.checkMessage()')
-				.glyphicon.glyphicon-send.custom-ico
-				span Send
+body(ng-controller='ChatController as chat')
+	.navbar.navbar-inverse.navbar-fixed-top
+		.container
+			.navbar-header 
+				button(type="button", data-toggle="collapse", data-target=".navbar-collapse").navbar-toggle
+					span.icon-bar
+					span.icon-bar					
+				.navbar-brand Chat Application
+				p.navbar-text
+					span.hidden-xs Singed in as
+					span.clip  Nmeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+			.navbar-collapse.collapse
+				ul.nav.navbar-nav.navbar-right
+					li
+						a(href="") Sing					
+					li
+						a(href="") About
+	.container.body-content.messager
+		.row.chat-row
+			.messages-row.col-md-8.col-md-offset-2.col-sm-12
+				.messages#autoscroll
+					ul
+						li(ng-repeat='message in chat.messages', ng-class='{self: message.self, system: message.system}')
+							.message
+								span {{message.body}}
+		.row.form-row
+			form.form-horizontal.input-row(ng-submit='chat.sendMessage(chat.message)')	
+				.form-group			
+					input.form-control.message-input.col-md-7(type='text', placeholder="Type a message", ng-model="chat.message.body")
+					button.btn.btn-primary.message-submit.col-md-4(ng-disabled='chat.checkMessage()')
+						.glyphicon.glyphicon-send.custom-ico
+						span Send
+					
+	//- .container(ng-controller='ChatController as chat')
+	//- 	.messages#autoscroll
+	//- 		ul
+	//- 			li(ng-repeat='message in chat.messages', ng-class='{self: message.self, system: message.system}')
+	//- 				.message
+	//- 					span {{message.body}}
+	//- 	form.input-row(ng-submit='chat.sendMessage(chat.message)')
+	//- 		input.form-control.message-input(type='text', placeholder="Type a message", ng-model="chat.message.body")
+	//- 		button.btn.btn-primary.message-submit(ng-disabled='chat.checkMessage()')
+	//- 			.glyphicon.glyphicon-send.custom-ico
+	//- 			span Send
 	script(src="lib/js/jquery-2.1.4.js")
 	script(src="lib/js/bootstrap.js")
 	script(src="lib/js/angular.js")

@@ -7,7 +7,7 @@
 
         this.sender = guid();
         // this.messages = [];
-        this.messages = [];
+        this.messages = defaultMessages;
 
         this.clearMessage = function() {
             this.message = {
@@ -38,7 +38,7 @@
         	return this.message.body == undefined || this.message.body.length === 0;
         }        
 
-        this.clearMessage();
+        // this.clearMessage();
 
         var controller = this;
 

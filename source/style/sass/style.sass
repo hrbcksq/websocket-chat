@@ -1,74 +1,142 @@
 $background_color: #272822;
+$self-message-color: #C4D5ED;
+$system-message-color: wheat;
+$default-message-color: #E59300;
 
 html, body 
 	background-color: $background_color
 	font-family: "Helvetica"
 	height: 100%
 
-.container
+.navbar-text
+	overflow: hidden	
+
+.container.messager
 	position: relative
+	padding-top: 50px
+	max-height: 700px
 	height: 100%
-	margin: 0
-	padding: 0
-	
+	.chat-row
+		height: 100%
+		padding-bottom: 40px
+	.form-row
+		margin-top: -40px
+	.messages-row							
+		&.col-sm-12, ul
+			padding-left: 0
+			padding-right: 0		
 
-	.messages
-		overflow-y: scroll
-		height: 92%		
+			li
+				list-style: none
+				margin-left: 0px
+				margin-right: 20px
 
-		ul
-			margin: 0px
-			padding: 10px
-		li
-			list-style: none
-			margin-left: 0px
-			margin-right: 20px
+				&.self
+					text-align: right	
+					margin-right: 0px
+					margin-left: 20px
 
-			&.self
-				text-align: right	
-				margin-right: 0px
-				margin-left: 20px
+					.message
+						background-color: $self-message-color
+
+				&.system				
+					margin-right: 0px
+					margin-left: 0px				
+
+					.message				
+						text-align: center	
+						width: 100%
+						background-color: transparent
+						color: $system-message-color
 
 				.message
-					background-color: #C4D5ED
-
-			&.system				
-				margin-right: 0px
-				margin-left: 0px				
-
-				.message				
-					text-align: center	
-					width: 100%
-					background-color: transparent
-					color: wheat
-
-			.message
-				display: inline-block
-				background-color: #E59300
-				border-radius: 7px	
-				margin: 5px 5px
-				padding: 7px				
-				text-align: left		
-
+					display: inline-block
+					background-color: $default-message-color
+					border-radius: 7px	
+					margin: 5px 5px
+					padding: 7px				
+					text-align: left	
 	.input-row
-		// display: none
-		position: absolute
-		box-sizing: border-box
-		left: 0px
-		bottom: 0px
-		width: 100%
-		padding: 5px 5px	
+		// display: none			
+		// box-sizing: border-box											
+		// padding: 5px 5px	
 		
 	.message-input
-		display: inline-block	
-		width: 70%
-		vertical-align: middle	
+		display: inline-block					
+		// vertical-align: middle	
 
 	.message-submit
-		display: inline-block		
-		width: 28%
-		vertical-align: middle
+		display: inline-block						
+		// vertical-align: middle
 
-.custom-ico
-	margin-right: 10px
-	font-size: 13px
+	.custom-ico
+		// margin-right: 10px
+		// font-size: 13px
+
+// .container
+// 	position: relative
+// 	height: 100%
+// 	margin: 0
+// 	padding: 0
+	
+
+// 	.messages
+// 		overflow-y: scroll
+// 		height: 92%		
+
+// 		ul
+// 			margin: 0px
+// 			padding: 10px
+// 		li
+// 			list-style: none
+// 			margin-left: 0px
+// 			margin-right: 20px
+
+// 			&.self
+// 				text-align: right	
+// 				margin-right: 0px
+// 				margin-left: 20px
+
+// 				.message
+// 					background-color: #C4D5ED
+
+// 			&.system				
+// 				margin-right: 0px
+// 				margin-left: 0px				
+
+// 				.message				
+// 					text-align: center	
+// 					width: 100%
+// 					background-color: transparent
+// 					color: wheat
+
+// 			.message
+// 				display: inline-block
+// 				background-color: #E59300
+// 				border-radius: 7px	
+// 				margin: 5px 5px
+// 				padding: 7px				
+// 				text-align: left		
+
+// 	.input-row
+// 		// display: none
+// 		position: absolute
+// 		box-sizing: border-box
+// 		left: 0px
+// 		bottom: 0px
+// 		width: 100%
+// 		padding: 5px 5px	
+		
+// 	.message-input
+// 		display: inline-block	
+// 		width: 70%
+// 		vertical-align: middle	
+
+// 	.message-submit
+// 		display: inline-block		
+// 		width: 28%
+// 		vertical-align: middle
+
+// .custom-ico
+// 	margin-right: 10px
+// 	font-size: 13px
