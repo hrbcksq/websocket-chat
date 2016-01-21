@@ -8,158 +8,87 @@ html, body
 	background-color: $background_color
 	font-family: "Helvetica"
 	height: 100%
-
 .nickname	
 	display: block	
+	overflow: hidden
 	padding-left: 10px
-	padding-right: 10px
+	padding-right: 10px		
 	color: $nickname-message-color
-
 .navbar-text
 	overflow: hidden	
-
-.col-sm-12
-	padding-left: 0
-	padding-right: 0		
-
 .container.messager
 	position: relative
 	padding-top: 50px
 	max-height: 700px
-	height: 100%		
-	.send-row
-		position: absolute
-		bottom: 0
-		margin: 0
-		padding: 5px
-	.messages-row		
-		position: relative					
-		height: 100%
-		padding-bottom: 45px
-		.messages
-			height: 100%
-			overflow-y: scroll
-			.col-sm-12, ul
-				padding-left: 0
-				padding-right: 0		
+	height: 100%			
+.send-row
+	position: absolute
+	bottom: 0
+	margin: 0
+	padding: 5px
+.messages-row		
+	position: relative					
+	height: 100%
+	padding-bottom: 45px
+	background-color: #121310
+	box-shadow: #121310 0px 0px 10px 3px
+.messages
+	height: 100%
+	overflow-y: auto
+.col-sm-12, ul
+	padding-left: 0
+	padding-right: 0		
 
-				li
-					list-style: none
-					margin-left: 0px
-					margin-right: 20px
+li
+	list-style: none
+	margin-left: 0px
+	margin-right: 20px
 
-					&.self
-						text-align: right	
-						margin-right: 0px
-						margin-left: 20px
+	&.self
+		text-align: right	
+		margin-right: 0px
+		margin-left: 20px
 
-						.message
-							background-color: $self-message-color
+		.message
+			background-color: $self-message-color
 
-					&.system				
-						margin-right: 0px
-						margin-left: 0px				
+	&.system				
+		margin-right: 0px
+		margin-left: 0px				
 
-						.message				
-							text-align: center	
-							width: 100%
-							background-color: transparent
-							color: $system-message-color
+		.message				
+			text-align: center	
+			width: 100%
+			background-color: transparent
+			color: $system-message-color
 
-					.message
-						position: relative
-						display: inline-block
-						background-color: $default-message-color
-						border-radius: 9px	
-						margin: 5px 5px
-						padding: 7px				
-						text-align: left	
-	.input-row
-		// display: none			
-		// box-sizing: border-box											
-		// padding: 5px 5px	
-		
-	.message-input
-		// display: inline-block		
-
-		// vertical-align: middle	
-
-	.message-submit
-		// display: inline-block						
-		// vertical-align: middle
-
-	.custom-ico
-		margin-right: 10px
-		font-size: 13px
+	.message
+		position: relative
+		display: inline-block
+		background-color: $default-message-color
+		border-radius: 9px	
+		margin: 5px 5px
+		padding: 7px				
+		text-align: left	
+.input-row
+	// display: none			
+	// box-sizing: border-box											
+	// padding: 5px 5px	
 	
+.message-input
+	// display: inline-block		
 
-// .container
-// 	position: relative
-// 	height: 100%
-// 	margin: 0
-// 	padding: 0
-	
+	// vertical-align: middle	
 
-// 	.messages
-// 		overflow-y: scroll
-// 		height: 92%		
+.message-submit
+	// display: inline-block						
+	// vertical-align: middle
 
-// 		ul
-// 			margin: 0px
-// 			padding: 10px
-// 		li
-// 			list-style: none
-// 			margin-left: 0px
-// 			margin-right: 20px
+.custom-ico
+	margin-right: 10px
+	font-size: 13px
 
-// 			&.self
-// 				text-align: right	
-// 				margin-right: 0px
-// 				margin-left: 20px
 
-// 				.message
-// 					background-color: #C4D5ED
-
-// 			&.system				
-// 				margin-right: 0px
-// 				margin-left: 0px				
-
-// 				.message				
-// 					text-align: center	
-// 					width: 100%
-// 					background-color: transparent
-// 					color: wheat
-
-// 			.message
-// 				display: inline-block
-// 				background-color: #E59300
-// 				border-radius: 7px	
-// 				margin: 5px 5px
-// 				padding: 7px				
-// 				text-align: left		
-
-// 	.input-row
-// 		// display: none
-// 		position: absolute
-// 		box-sizing: border-box
-// 		left: 0px
-// 		bottom: 0px
-// 		width: 100%
-// 		padding: 5px 5px	
-		
-// 	.message-input
-// 		display: inline-block	
-// 		width: 70%
-// 		vertical-align: middle	
-
-// 	.message-submit
-// 		display: inline-block		
-// 		width: 28%
-// 		vertical-align: middle
-
-// .custom-ico
-// 	margin-right: 10px
-// 	font-size: 13px
 ::-webkit-scrollbar
   position: absolute
   right: -8px

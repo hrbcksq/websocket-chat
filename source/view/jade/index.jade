@@ -17,13 +17,21 @@ body(ng-controller='ChatController as chat')
 				.navbar-brand Chat Application
 				p.navbar-text
 					span.hidden-xs Singed in as
-					span.clip  Nmeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+					span.clip  Name
 			.navbar-collapse.collapse
 				ul.nav.navbar-nav.navbar-right
 					li
 						a(href="") Sing					
 					li
 						a(href="") About
+			#modaldialog.modal.fade
+				#dialogContent.modal-dialog
+			.modal-content
+				.modal-header
+					button.close(data-dismiss='modal', area-hidden='true') X
+					h4 About
+				.modal-body
+					span Text
 	.container.body-content.messager
 		.row.messages-row.col-md-8.col-md-offset-2.col-sm-12
 				.messages#autoscroll
@@ -40,18 +48,8 @@ body(ng-controller='ChatController as chat')
 							span.input-group-btn
 								button.btn.btn-primary(ng-disabled='chat.checkMessage()')
 									.glyphicon.glyphicon-send.custom-ico
-									span Send					
-	//- .container(ng-controller='ChatController as chat')
-	//- 	.messages#autoscroll
-	//- 		ul
-	//- 			li(ng-repeat='message in chat.messages', ng-class='{self: message.self, system: message.system}')
-	//- 				.message
-	//- 					span {{message.body}}
-	//- 	form.input-row(ng-submit='chat.sendMessage(chat.message)')
-	//- 		input.form-control.message-input(type='text', placeholder="Type a message", ng-model="chat.message.body")
-	//- 		button.btn.btn-primary.message-submit(ng-disabled='chat.checkMessage()')
-	//- 			.glyphicon.glyphicon-send.custom-ico
-	//- 			span Send
+									span Send	
+
 	script(src="lib/js/jquery-2.1.4.js")
 	script(src="lib/js/bootstrap.js")
 	script(src="lib/js/angular.js")

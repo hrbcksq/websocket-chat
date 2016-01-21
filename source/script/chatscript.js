@@ -6,7 +6,7 @@
     app.controller('ChatController', function($timeout) {    	
 
         // this.sender = guid();
-        this.sender = 'sender';
+        this.sender = 'sendersendersendersendersendersendersendersendersender';
         // this.messages = [];
         this.messages = defaultMessages;
 
@@ -26,11 +26,9 @@
 
         this.addMessage = function(message) {        	
         	message.self = !message.system && message.sender === this.sender;
-            message.sender = this.lastsender === message.sender && this.lastsender ? message.sender = '' : this.lastsender = message.sender;
-            // message.sender = this.messages[this.messages.length-1].sender 
-            //=== message.sender ? '' : message.sender;
+            message.sender = this.lastsender === message.sender && this.lastsender ? message.sender = '' : this.lastsender = message.sender;            
             this.messages.push(message);
-        	$timeout(scrollDown('autoscroll'), 100, false);
+        	$timeout(function() {scrollDown('autoscroll');}, 100);
         };
 
         this.addSystemMessage = function(text){
