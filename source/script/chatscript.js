@@ -3,12 +3,24 @@
 
     var app = angular.module('chatapp', []);
 
+    app.factory('userstats', function(){
+        return {
+            'name' : 'anonymous'
+        };
+    });
 
-
-
-    app.controller('AuthorizeController', function()
+    app.controller('AuthorizeController', function($scope, userstats)
     {
-        
+        $scope.Authorize = function(){
+            if ($cookies.get('name') || !$scope.rememberme)
+                $cookies.remove('name')
+            if ($scope.rememberme)
+                $cookies.set('name',$scope.name)
+        };
+
+        $scope.IsValid = function(){
+            return $scope.name
+        };
     });
 
     app.controller('ChatController', function($timeout) {    	
@@ -22,7 +34,8 @@
 
         this.clearMessage = function() {
             this.message = {
-                'sender': this.sender
+                'sender': this.sender,
+                'body': ''
             };
         };
 
@@ -50,7 +63,7 @@
         	return this.message.body == undefined || this.message.body.length === 0;
         }        
 
-        // this.clearMessage();
+        this.clearMessage();
 
         var controller = this;
 
