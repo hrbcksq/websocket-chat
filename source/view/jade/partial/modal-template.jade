@@ -1,0 +1,20 @@
+#modaldialog.modal.fade
+	.modal-dialog.modal-sm.modal-md
+		.modal-content
+			.modal-header
+				button.close(data-dismiss='modal', area-label="Close")
+					span(area-hidden='true') &times;
+				h4.modal-title Please sing up
+			.modal-body
+				form#login-form
+					.form-group
+						label(for="login-input") Login
+						input#login-input.form-control(type="text", placeholder="Enter your login")
+					.form-group
+						.checkbox
+							label
+								input(type="checkbox")
+								span Remember me
+			.modal-footer
+				button.btn.btn-primary Sing up
+				button.btn.btn-default(data-dissmiss="modal") Close

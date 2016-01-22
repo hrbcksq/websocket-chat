@@ -3,6 +3,14 @@
 
     var app = angular.module('chatapp', []);
 
+
+
+
+    app.controller('AuthorizeController', function()
+    {
+        
+    });
+
     app.controller('ChatController', function($timeout) {    	
 
         // this.sender = guid();
@@ -65,8 +73,6 @@
   //       };        
     });
 }());
-
-
 
 // var socket = new WebSocket('ws://hrbcksq.com:8084');
 

@@ -14,16 +14,13 @@ body(ng-controller='ChatController as chat')
 		.container-fluid
 			.navbar-header 
 				button(type="button", data-toggle="collapse", data-target=".navbar-collapse").navbar-toggle
-					span.icon-bar
-					span.icon-bar
+					span.icon-bar					
 				.navbar-brand Chat Application
 				p.navbar-text
 					span.hidden-xs Singed in as
 					span.clip  Name
 			.navbar-collapse.collapse
 				ul.nav.navbar-nav.navbar-right
-					li
-						a(href="") Sing					
 					li
 						a(href="") About						
 	.container.body-content.messager
@@ -42,16 +39,28 @@ body(ng-controller='ChatController as chat')
 							span.input-group-btn
 								button.btn.btn-primary(ng-disabled='chat.checkMessage()')
 									.glyphicon.glyphicon-send.custom-ico
-									span Send		
-	#modaldialog.modal.fade.container
-		.row					
-			#dialogContent.col-md-6.col-md-offset-3.col-sm-10
-				.modal-content
-					.modal-header
-						button.close(data-dismiss='modal', area-hidden='true') X
-						h4 About
-					.modal-body
-								span Text
+									span Send
+	#modaldialog.modal.fade
+		.modal-dialog.modal-sm.modal-md
+			.modal-content
+				.modal-header
+					button.close(data-dismiss='modal', area-label="Close")
+						span(area-hidden='true') &times;
+					h4.modal-title Please sing up
+				.modal-body
+					form#login-form
+						.form-group
+							label(for="login-input") Login
+							input#login-input.form-control(type="text", placeholder="Enter your login")
+						.form-group
+							.checkbox
+								label
+									input(type="checkbox")
+									span Remember me
+				.modal-footer
+					button.btn.btn-primary Sing up
+					button.btn.btn-default(data-dissmiss="modal") Close
+
 	script(src="lib/js/jquery-2.1.4.js")
 	script(src="lib/js/bootstrap.js")
 	script(src="lib/js/angular.js")
