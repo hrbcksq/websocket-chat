@@ -40,9 +40,9 @@ body(ng-controller='ChatController as chat')
 								button.btn.btn-primary(ng-disabled='chat.checkMessage()')
 									.glyphicon.glyphicon-send.custom-ico
 									span Send	
-.modal-module(ng-controller="ModalController as modal")
+.modal-frame(ng-controller="ModalController as modal")
 	input(type='button', ng-click="modal.toggleModal()")
-	modal-directive(title="title", body="body", footer="footer", visible="{{modal.showModal}}")
+	modal-directive(title="title", body="body", footer="footer", visible="showModal")
 	//- #modaldialog.modal.fade
 	//- 	.modal-dialog.modal-sm.modal-md
 	//- 		.modal-content

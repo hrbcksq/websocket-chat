@@ -1,25 +1,29 @@
 ; {
     (function() {
         var app = angular.module('modal-module', []);
-        app.controller("ModalController",[function() {            
-            this.showModal = false;
+
+        app.controller("ModalController", ['$scope', function($scope) {
+            $scope.showModal = false;
             this.toggleModal = function() {
-                this.showModal = !this.showModal;
+                $scope.showModal = !$scope.showModal;
             };
         }]);
 
-        app.directive('modalDirective', function() {
+        app.directive('modalDirective', ['$timeout' ,function($timeout) {
             return {
-                scope: {
-                    'title': "=title",
-                    'body': '=body',
-                    'footer': '=footer'
-                },
+                scope: true,
                 templateUrl: '/partial/modal-template.html',
                 restrict: "E",
                 link: function postLink(scope, element, attrs) {
+                    scope.title = attrs.title;
+                    scope.body = attrs.body;
+                    scope.footer = attrs.footer;
+
                     scope.$watch(attrs.visible, function(value) {
-                        $(element).modal(value === true ? 'show' : 'hide');
+                        $timeout(function()
+                        {
+                        	$(element).modal(value === true ? 'show' : 'hide');
+                        });
                     });
 
                     $(element).on('shown.bs.modal', function() {
@@ -36,6 +40,6 @@
                 }
 
             };
-        });
+        }]);
     }());
 };

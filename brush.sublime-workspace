@@ -143,32 +143,32 @@
 			"file": "source/view/jade/index.jade",
 			"settings":
 			{
-				"buffer_size": 2297,
+				"buffer_size": 2679,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "source/script/chatscript.js",
+			"file": "build/partial/modal-template.html",
 			"settings":
 			{
-				"buffer_size": 2139,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "source/style/sass/style.sass",
-			"settings":
-			{
-				"buffer_size": 3326,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "build/styles/style.css",
-			"settings":
-			{
-				"buffer_size": 2876,
+				"buffer_size": 454,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/style/sass/modal.sass",
+			"settings":
+			{
+				"buffer_size": 72,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "source/script/modal.js",
+			"settings":
+			{
+				"buffer_size": 1530,
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -176,6 +176,14 @@
 			"settings":
 			{
 				"buffer_size": 538,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "source/script/chatscript.js",
+			"settings":
+			{
+				"buffer_size": 2619,
 				"line_ending": "Windows"
 			}
 		}
@@ -194,6 +202,14 @@
 			[
 				"html",
 				"HTMLPrettify"
+			],
+			[
+				"ss",
+				"Set Syntax: HTML"
+			],
+			[
+				"ssjs",
+				"Set Syntax: JavaScript"
 			],
 			[
 				"sssas",
@@ -216,10 +232,6 @@
 				"Set Syntax: Sass"
 			],
 			[
-				"ssjs",
-				"Set Syntax: JavaScript"
-			],
-			[
 				"jade",
 				"Set Syntax: Jade"
 			],
@@ -234,10 +246,6 @@
 			[
 				"ssjad",
 				"Set Syntax: Jade"
-			],
-			[
-				"ss",
-				"Set Syntax: HTML"
 			],
 			[
 				"sa",
@@ -312,7 +320,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 408.0
+		"width": 424.0
 	},
 	"console":
 	{
@@ -334,15 +342,38 @@
 	"expanded_folders":
 	[
 		"/E/sandbox/websocket-chat",
+		"/E/sandbox/websocket-chat/build",
+		"/E/sandbox/websocket-chat/build/partial",
 		"/E/sandbox/websocket-chat/source",
 		"/E/sandbox/websocket-chat/source/script",
 		"/E/sandbox/websocket-chat/source/style",
 		"/E/sandbox/websocket-chat/source/style/sass",
 		"/E/sandbox/websocket-chat/source/view",
-		"/E/sandbox/websocket-chat/source/view/jade"
+		"/E/sandbox/websocket-chat/source/view/jade",
+		"/E/sandbox/websocket-chat/source/view/jade/partial"
 	],
 	"file_history":
 	[
+		"/E/sandbox/ng-app-rs/source/view/jade/index.jade",
+		"/E/sandbox/websocket-chat/source/style/sass/modal.sass",
+		"/E/sandbox/websocket-chat/source/style/sass/style.sass",
+		"/E/sandbox/ng-app-rs/source/script/app.js",
+		"/E/sandbox/ng-app-rs/source/script/directives.js",
+		"/E/sandbox/websocket-chat/source/view/jade/partial/modal-template.jade",
+		"/D/systemdata/system_temp/Rar$DIa0.993/reviews.json",
+		"/D/systemdata/system_temp/Rar$DIa0.881/reviews.js",
+		"/D/systemdata/system_temp/Rar$DIa0.045/reset.css",
+		"/D/systemdata/system_temp/Rar$DIa0.005/style.min.css",
+		"/D/systemdata/system_temp/Rar$DIa0.711/style.css",
+		"/E/sandbox/websocket-chat/source/script/helpers.js",
+		"/E/sandbox/websocket-chat/source/script/modal.js",
+		"/E/sandbox/websocket-chat/source/script/chatscript.js",
+		"/E/wcode/Workspaces/stat/ВВ.АИС Статистика/Shi/InformSviaz.Shi.Server/StatusMiddleware.cs",
+		"/E/wcode/Workspaces/stat/ВВ.АИС Статистика/Shi/InformSviaz.Shi.Server/ShiServer.cs",
+		"/E/wcode/Workspaces/stat/ВВ.АИС Статистика/Shi/InformSviaz.Shi.Server/ShiManager.cs",
+		"/E/wcode/Workspaces/stat/ВВ.АИС Статистика/Shi/InformSviaz.Shi.Server/ShiHub.cs",
+		"/E/sandbox/websocket-chat/source/style/sass/scroll.sass",
+		"/E/sandbox/websocket-chat/build/styles/style.css",
 		"/E/code/sandbox/brush/source/style/sass/style.sass",
 		"/E/code/sandbox/brush/gulpfile.js",
 		"/E/code/sandbox/brush/build/styles/style.css",
@@ -450,27 +481,7 @@
 		"/E/code/_temp/public/index.html",
 		"/E/code/_temp/scss/style.scss",
 		"/F/MMShell/SOFT.HTM",
-		"/D/downloads/5bdc8fbbe0994fd8a65c7b08a75465ec",
-		"/C/Users/redpa_000/Desktop/cache files/dictionary",
-		"/C/Users/redpa_000/Desktop/cache files/english dictionary",
-		"/C/Users/redpa_000/Desktop/cache files/list",
-		"/C/Users/redpa_000/Desktop/cache files/mt",
-		"/C/Users/redpa_000/Desktop/cache files/Not a long time ago, I posted an article adout how",
-		"/C/Users/redpa_000/Desktop/cache files/что можно поставить условную точку останова и приа",
-		"/E/code/_temp/public/example.html",
-		"/E/code/_temp/public/script.js",
-		"/E/code/_temp/public/css/style.css",
-		"/E/Workspaces/MedVisor/Andersen.MedVisor/Andersen.MedVisor.DirectShow/DirectShow/DirectShowWrapper.cs",
-		"/E/Workspaces/MedVisor/Andersen.MedVisor/Andersen.MedVisor.DirectShow/DirectShow/DirectShowGraph.cs",
-		"/E/Workspaces/MedVisor/Andersen.MedVisor/Andersen.MedVisor.DirectShow/DirectShow/DirectShowGrabber.cs",
-		"/D/systemdata/system_temp/Rar$DIa0.920/ПрочтиМеня!.txt",
-		"/D/downloads/insert_employees.sql",
-		"/C/Users/redpa_000/Desktop/cache files/dspt.js",
-		"/C/Users/redpa_000/Desktop/cache files/output.list",
-		"/C/Users/redpa_000/Desktop/2.img",
-		"/E/code/_temp/public/example_3.html",
-		"/E/code/_temp/public/style.css",
-		"/E/code/_temp/public/style.scss"
+		"/D/downloads/5bdc8fbbe0994fd8a65c7b08a75465ec"
 	],
 	"find":
 	{
@@ -590,15 +601,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2297,
+						"buffer_size": 2679,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1289,
-								1289
+								1769,
+								1634
 							]
 						],
 						"settings":
@@ -607,7 +618,65 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 341.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "build/partial/modal-template.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 454,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								454,
+								454
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "source/style/sass/modal.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 72,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								72,
+								72
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -616,102 +685,42 @@
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
-					"buffer": 1,
-					"file": "source/script/chatscript.js",
+					"buffer": 3,
+					"file": "source/script/modal.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2139,
+						"buffer_size": 1530,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2139,
-								2139
+								841,
+								841
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 810.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "source/style/sass/style.sass",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3326,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3200,
-								3200
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2295.0,
+						"translation.y": 90.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "build/styles/style.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2876,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								225,
-								225
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 315.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 4,
 					"file": "source/script/helpers.js",
-					"semi_transient": false,
+					"semi_transient": true,
 					"settings":
 					{
 						"buffer_size": 538,
@@ -721,8 +730,8 @@
 						"selection":
 						[
 							[
-								131,
-								131
+								321,
+								321
 							]
 						],
 						"settings":
@@ -734,7 +743,37 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "source/script/chatscript.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2619,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								445,
+								445
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -768,7 +807,7 @@
 		"cols":
 		[
 			0.0,
-			0.631578947368,
+			0.466282894737,
 			1.0
 		],
 		"rows":
