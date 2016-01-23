@@ -42,8 +42,8 @@ body(ng-controller='ChatController as chat')
 									span Send	
 .modal-frame(ng-controller="ModalController as modal")
 	input(type='button', ng-click="modal.toggleModal()")
-	modal-directive(title="title", body="body", footer="footer", visible="showModal")
-	//- #modaldialog.modal.fade
+	modal-directive(title="title", body="body", footer="footer", visible="showModal").modal.fade
+	//- #modaldialog
 	//- 	.modal-dialog.modal-sm.modal-md
 	//- 		.modal-content
 	//- 			.modal-header
