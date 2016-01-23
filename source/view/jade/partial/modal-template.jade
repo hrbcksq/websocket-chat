@@ -4,6 +4,6 @@
 			.modal-header
 				button.close(data-dismiss='modal', area-label="Close")
 					span(area-hidden='true') &times;
-				h4.modal-title(ng-transclude="title")
-			.modal-body(ng-transclude='body')
-			.modal-footer(ng-transclude="footer")
+				h4.modal-title {{title}}
+			.modal-body {{body}}
+			.modal-footer {{footer}}

@@ -1,7 +1,7 @@
 ;
 (function() {
 
-    var app = angular.module('chatapp', []);
+    var app = angular.module('chatapp', ['modal-module']);
 
     app.factory('userstats', function(){
         return {
