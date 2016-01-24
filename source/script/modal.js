@@ -2,27 +2,35 @@
     (function() {
         var app = angular.module('modal-module', []);
 
-        app.controller("ModalController", ['$scope', function($scope) {
-            $scope.showModal = false;
-            this.toggleModal = function() {
-                $scope.showModal = !$scope.showModal;
+        app.factory('modalService', function() {  
+        	this.state = false;
+            return {
+            	'state': this.state,            	
+            	'setContent': function(title, body, footer){
+        			this.title = title;
+        			this.body = body;
+        			this.footer = footer;
+            	},
+                'modal': function() {
+                    this.state = !this.state;
+                }
             };
-        }]);
+        });
 
-        app.directive('modalDirective', ['$timeout' ,function($timeout) {
+        app.directive('modalDirective', ['$timeout', 'modalService', function($timeout, modalService) {
             return {
                 scope: true,
                 templateUrl: '/partial/modal-template.html',
                 restrict: "E",
-                link: function postLink(scope, element, attrs) {
-                    scope.title = attrs.title;
-                    scope.body = attrs.body;
-                    scope.footer = attrs.footer;
-
-                    scope.$watch(attrs.visible, function(value) {
-                        $timeout(function()
-                        {
-                        	$(element).modal(value === true ? 'show' : 'hide');
+                link: function postLink(scope, element, attrs) {                    
+                    scope.$watch(modalService.state, function(value) {
+                        $timeout(function() {
+                        	if (value) {
+                        		scope.title = modalService.title;
+                    			scope.body = modalService.body;
+                    			scope.footer = modalService.footer;
+                        	};                        	
+                            $(element).modal(value === true ? 'show' : 'hide');
                         });
                     });
 
@@ -38,7 +46,6 @@
                         });
                     });
                 }
-
             };
         }]);
     }());
