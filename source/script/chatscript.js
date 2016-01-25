@@ -1,7 +1,7 @@
 ;
 (function() {
 
-    var app = angular.module('chatapp', ['modal-module', 'ngCookies']);
+    var app = angular.module('chatapp', ['ngCookies']);
 
     app.factory('userService', function() {
         return {

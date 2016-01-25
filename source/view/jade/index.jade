@@ -39,28 +39,13 @@ body(ng-controller='MessengerController as chat')
 							span.input-group-btn
 								button.btn.btn-primary(ng-disabled='chat.checkMessage()')
 									.glyphicon.glyphicon-send.custom-ico
-									span Send	
-modal-directive#modal.modal.fade(visible="showModal")
-.hidden-area
-	#modal-authorize(ng-controller='AuthorizeController as auth')
-		#login-header(ng-bind-html='auth.loginHeader') Please sing up
-		#login-body(ng-bind-html='auth.loginBody')
-			form#login-form
-				.form-group
-					label(for="login-input") Login
-					input#login-input.form-control(type='text', placeholder="Enter your login", ng-model='auth.name')
-				.form-group
-					.checkbox
-						label
-							input(type='checkbox', ng-model="auth.rememberme", value='false')
-							span Remember me
-		#login-footer(ng-bind-html='auth.loginFooter')
-			button.btn.btn-primary(ng-click='auth.Authorize()', ng-disabled='auth.IsValid') Sing up
-			button.btn.btn-default(data-dissmiss="modal")
+									span Send		
+	include ./partial/auth.jade
+	include ./partial/about.jade
+	
 	script(src="lib/js/jquery-2.1.4.js")
 	script(src="lib/js/bootstrap.js")
 	script(src="lib/js/angular.js")
-	script(src="lib/js/angular-cookies.js")		
+	script(src="lib/js/angular-cookies.js")
 	script(src="script/helpers.js")
-	script(src="script/modal.js")
 	script(src="script/chatscript.js")
