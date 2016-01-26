@@ -9,28 +9,37 @@
         };
     });
 
-    app.controller('AuthorizeController', function($cookies, modalService, userService) {        
+    app.controller('AuthorizeController', function($cookies, userService) {        
 
-        this.Authorize = function() {
-            if ($cookies.get('name') && !this.rememberme) {                
+        this.SingIn = function() {
+            if ($cookies.get('name')) {                
                 $cookies.remove('name')
                 $cookies.remove('id')
-            };
+            };            
+            userService.name = this.name;
+            userService.id = guid();
             if (this.rememberme) {
-                $cookies.set('name', this.name)
-                $cookies.set('id', guid());
-            }                
+                $cookies.set('name', userService.name);
+                $cookies.set('id', userService.id);
+            }              
         };
 
-        this.IsValid = function() {
+        this.SingUp = function(){
+            this.rememberme = true;
+            this.name = '';
+            angular.element("#auth-view").modal('show');
+        };
+
+        this.Login = function(){
+            userService.name = $cookies.get('name');
+            userService.id = $cookies.get('id');
+        };
+
+        this.IsLoginValid = function() {
             return this.name
         };
 
-        if (!$cookies.get('name'))
-        {
-            modalService.setContent(this.loginHeader, this.loginBody, this.loginFooter);
-            modalService.modal();
-        }
+        $cookies.get('name') ? this.Login() : this.SingUp();
     });
 
     app.controller('MessengerController', function($timeout, userService) {
