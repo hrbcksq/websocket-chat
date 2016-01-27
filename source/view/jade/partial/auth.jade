@@ -1,20 +1,19 @@
-#auth-view.modal.fade
+#auth-view.modal.fade(data-backdrop="static")
 	.modal-dialog.modal-sm.modal-md
-		.modal-content(ng-controller='AuthorizeController as auth')
+		form(name="loginform", ng-controller='AuthorizeController as auth', ng-submit="login-form.$valid && auth.SingIn()", novalidate)#login-form.modal-content
 			.modal-header
-				button.close(data-dismiss='modal', area-label="Close")
+				button.close(data-dismiss='modal', area-label="Close", ng-disabled="!auth.IsValid()")
 					span(area-hidden='true') &times;
-				h4.modal-title Please sing up
-			form#login-form(ng-submit="login-form.$valid && this.SingIn()", novalidate)
-				.modal-body 				
-						.form-group
-							label(for="login-input") Login
-							input#login-input.form-control(type='text', placeholder="Enter your login", ng-model='auth.name', required="true")
-						.form-group
-							.checkbox
-								label
-									input(type='checkbox', ng-model="auth.rememberme", value='true', required="false")
-									span Remember me
-				.modal-footer 
-					button.btn.btn-primary(type="submit") Sing up
-					button.btn.btn-default(data-dissmiss="modal") Close {{login-form.$valid}}
+				h4.modal-title Please sing up			
+			.modal-body 				
+					.form-group
+						label(for="login-input") Login
+						input#login-input.form-control(type='text', placeholder="Enter your login", ng-model='auth.name', required="true")
+					.form-group
+						.checkbox
+							label
+								input(type='checkbox', ng-model="auth.rememberme", value='true')
+								span Remember me
+			.modal-footer
+				button.btn.btn-primary(type="submit", ng-disabled="!auth.IsValid()") Sing up
+				button.btn.btn-default(data-dissmiss="modal", ng-disabled="!auth.IsValid()") Close

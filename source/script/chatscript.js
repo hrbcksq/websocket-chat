@@ -35,8 +35,8 @@
             userService.id = $cookies.get('id');
         };
 
-        this.IsLoginValid = function() {
-            return this.name
+        this.IsValid = function() {
+            return this.name && this.name.length > 3 && this.name.length < 10;
         };
 
         $cookies.get('name') ? this.Login() : this.SingUp();
