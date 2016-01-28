@@ -8,12 +8,11 @@
 			.modal-body 				
 					.form-group
 						label(for="login-input") Login
-						input#login-input.form-control(name='login-input',type='text', placeholder="Enter your login", ng-model='auth.name', required="true", ng-minlength="5"
-           ng-maxlength="15")
-           				div(ng-messages="login-form.login-input.$error")
-           					div(ng-messages="required") You didn't enter a field	
-           					div(ng-messages="minlength") Your field is too short
-           					div(ng-messages="maxlength") Your field is too long
+						input#login-input.form-control(name='logininput',type='text', placeholder="Enter your login", ng-model='auth.name', required="true", ng-minlength="5", ng-maxlength="15")
+						div(ng-messages="loginform.logininput.$error", role="alert")
+							div(ng-message="required") You didn't enter a field
+							div(ng-message="minlength") Your field is too short
+							div(ng-message="maxlength") Your field is too long
 					.form-group
 						.checkbox
 							label

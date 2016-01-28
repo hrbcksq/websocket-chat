@@ -147,31 +147,39 @@
 			"file": "source/view/jade/index.jade",
 			"settings":
 			{
-				"buffer_size": 2568,
+				"buffer_size": 1855,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/E/sandbox/ng-app-rs/source/script/directives.js",
+			"file": "/C/Users/redpa_000/Desktop/test/script.js",
 			"settings":
 			{
-				"buffer_size": 236,
+				"buffer_size": 160,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/E/sandbox/ng-app-rs/source/script/app.js",
+			"file": "source/view/jade/partial/auth.jade",
 			"settings":
 			{
-				"buffer_size": 770,
+				"buffer_size": 1237,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "source/style/sass/modal.sass",
+			"file": "/C/Users/redpa_000/Desktop/Today",
 			"settings":
 			{
-				"buffer_size": 258,
+				"buffer_size": 32,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "source/view/jade/partial/about.jade",
+			"settings":
+			{
+				"buffer_size": 336,
 				"line_ending": "Windows"
 			}
 		},
@@ -187,24 +195,32 @@
 			"file": "source/script/chatscript.js",
 			"settings":
 			{
-				"buffer_size": 3019,
+				"buffer_size": 3331,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "source/view/jade/partial/modal-template.jade",
+			"file": "/E/MusicStore-master/test/MusicStore.Test/GenreMenuComponentTest.cs",
 			"settings":
 			{
-				"buffer_size": 236,
-				"line_ending": "Windows"
+				"buffer_size": 1710,
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "source/style/sass/style.sass",
+			"file": "/E/MusicStore-master/test/MusicStore.Test/HomeControllerTest.cs",
 			"settings":
 			{
-				"buffer_size": 1738,
-				"line_ending": "Windows"
+				"buffer_size": 3782,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/E/MusicStore-master/test/MusicStore.Test/TestSession.cs",
+			"settings":
+			{
+				"buffer_size": 1008,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -216,9 +232,13 @@
 	"command_palette":
 	{
 		"height": 400.0,
-		"last_filter": "html",
+		"last_filter": "ss",
 		"selected_items":
 		[
+			[
+				"ss",
+				"Set Syntax: HTML"
+			],
 			[
 				"html",
 				"HTMLPrettify"
@@ -226,10 +246,6 @@
 			[
 				"sas",
 				"Set Syntax: Sass"
-			],
-			[
-				"ss",
-				"Set Syntax: HTML"
 			],
 			[
 				"ssjs",
@@ -362,8 +378,6 @@
 	"expanded_folders":
 	[
 		"/E/sandbox/websocket-chat",
-		"/E/sandbox/websocket-chat/build",
-		"/E/sandbox/websocket-chat/build/partial",
 		"/E/sandbox/websocket-chat/source",
 		"/E/sandbox/websocket-chat/source/script",
 		"/E/sandbox/websocket-chat/source/style",
@@ -374,15 +388,19 @@
 	],
 	"file_history":
 	[
+		"/E/sandbox/websocket-chat/source/style/sass/modal.sass",
+		"/E/sandbox/websocket-chat/source/style/sass/style.sass",
+		"/C/Users/redpa_000/Desktop/temp/notes/list",
+		"/C/Users/redpa_000/Desktop/test/index.html",
+		"/E/sandbox/websocket-chat/source/view/jade/partial/modal-template.jade",
+		"/E/sandbox/websocket-chat/source/view/jade/partial/authorization.jade",
+		"/E/sandbox/ng-app-rs/source/script/app.js",
+		"/E/sandbox/ng-app-rs/source/script/directives.js",
+		"/C/Users/redpa_000/Desktop/temp/stylebot.styles",
 		"/E/sandbox/ng-app-rs/source/view/jade/index.jade",
 		"/E/sandbox/websocket-chat/source/script/chatscript.js",
 		"/E/sandbox/websocket-chat/build/partial/modal-template.html",
 		"/D/systemdata/system_temp/Rar$DIa0.312/MainPage.xaml.cs",
-		"/E/sandbox/websocket-chat/source/style/sass/modal.sass",
-		"/E/sandbox/websocket-chat/source/style/sass/style.sass",
-		"/E/sandbox/ng-app-rs/source/script/app.js",
-		"/E/sandbox/ng-app-rs/source/script/directives.js",
-		"/E/sandbox/websocket-chat/source/view/jade/partial/modal-template.jade",
 		"/D/systemdata/system_temp/Rar$DIa0.993/reviews.json",
 		"/D/systemdata/system_temp/Rar$DIa0.881/reviews.js",
 		"/D/systemdata/system_temp/Rar$DIa0.045/reset.css",
@@ -423,7 +441,6 @@
 		"/E/Workspaces/MV/Andersen.MedVisor/Andersen.MedVisor.DirectShow/DirectShow/DirectShowMediaTypesConstructor.cs",
 		"/E/Workspaces/MV/Andersen.MedVisor/Andersen.MedVisor.DirectShow/DirectShow/DirectShowGraph.cs",
 		"/E/Workspaces/MV/Andersen.MedVisor/Andersen.MedVisor.DirectShow/DirectShow/DirectShowControls.cs",
-		"/C/Users/redpa_000/Desktop/temp/notes/list",
 		"/E/code/sandbox/splash/source/view/jade/locals.json",
 		"/E/code/sandbox/splash/source/view/jade/partial/header.jade",
 		"/E/code/sandbox/splash/build/style/bootstrap.css",
@@ -498,10 +515,7 @@
 		"/C/Users/redpa_000/AppData/Local/clink/clink.log",
 		"/D/systemdata/system_temp/Rar$DIa0.449/CurseQuery.sql",
 		"/D/virtual_machines/yosemite - Copy/OS X Yosemite.vmx",
-		"/E/code/web_notepad.html",
-		"/E/code/_temp/scss/style-rtb.scss",
-		"/E/code/_temp/public/index.html",
-		"/E/code/_temp/scss/style.scss"
+		"/E/code/web_notepad.html"
 	],
 	"find":
 	{
@@ -519,6 +533,8 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"\n    ",
+			"button",
 			",",
 			",\n",
 			"title",
@@ -619,7 +635,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 9,
 			"sheets":
 			[
 				{
@@ -628,15 +644,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2568,
+						"buffer_size": 1855,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1724,
-								1736
+								1411,
+								1411
 							]
 						],
 						"settings":
@@ -646,19 +662,253 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 616.0,
+						"translation.y": 315.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "/E/sandbox/ng-app-rs/source/script/directives.js",
+					"file": "/C/Users/redpa_000/Desktop/test/script.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 236,
+						"buffer_size": 160,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								160,
+								160
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "source/view/jade/partial/auth.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1237,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								659,
+								659
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/redpa_000/Desktop/Today",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 32,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								32,
+								32
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "source/view/jade/partial/about.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 336,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								289,
+								289
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "source/script/modal.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1894,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								493,
+								493
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "source/script/chatscript.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3331,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1044,
+								1044
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 64.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/E/MusicStore-master/test/MusicStore.Test/GenreMenuComponentTest.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1710,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								753,
+								757
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C#/C#.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 135.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/E/MusicStore-master/test/MusicStore.Test/HomeControllerTest.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3782,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1669,
+								1669
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C#/C#.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/E/MusicStore-master/test/MusicStore.Test/TestSession.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1008,
 						"regions":
 						{
 						},
@@ -671,35 +921,7 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/E/sandbox/ng-app-rs/source/script/app.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 770,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								645,
-								645
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"syntax": "Packages/C#/C#.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
@@ -707,157 +929,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "source/style/sass/modal.sass",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 258,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								258,
-								258
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby Haml.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
-				{
-					"buffer": 4,
-					"file": "source/script/modal.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1894,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								508,
-								508
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "source/script/chatscript.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3019,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								822,
-								823
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 45.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "source/view/jade/partial/modal-template.jade",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 236,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								236,
-								236
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "source/style/sass/style.sass",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1738,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1738,
-								1738
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 990.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -880,18 +952,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
@@ -913,7 +978,7 @@
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "Packages/Jade Build/Jade.sublime-build",
+	"pinned_build_system": "Packages/User/Chrome.sublime-build",
 	"project": "brush.sublime-project",
 	"replace":
 	{
@@ -951,7 +1016,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},

@@ -1,7 +1,7 @@
 ;
 (function() {
 
-    var app = angular.module('chatapp', ['ngCookies']);
+    var app = angular.module('chatapp', ['ngCookies','ngMessages']);
 
     app.factory('userService', function() {
         return {
