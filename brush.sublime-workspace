@@ -147,15 +147,7 @@
 			"file": "source/view/jade/index.jade",
 			"settings":
 			{
-				"buffer_size": 1855,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/redpa_000/Desktop/test/script.js",
-			"settings":
-			{
-				"buffer_size": 160,
+				"buffer_size": 1897,
 				"line_ending": "Windows"
 			}
 		},
@@ -163,15 +155,7 @@
 			"file": "source/view/jade/partial/auth.jade",
 			"settings":
 			{
-				"buffer_size": 1237,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/redpa_000/Desktop/Today",
-			"settings":
-			{
-				"buffer_size": 32,
+				"buffer_size": 1257,
 				"line_ending": "Windows"
 			}
 		},
@@ -197,30 +181,6 @@
 			{
 				"buffer_size": 3331,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/E/MusicStore-master/test/MusicStore.Test/GenreMenuComponentTest.cs",
-			"settings":
-			{
-				"buffer_size": 1710,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/E/MusicStore-master/test/MusicStore.Test/HomeControllerTest.cs",
-			"settings":
-			{
-				"buffer_size": 3782,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/E/MusicStore-master/test/MusicStore.Test/TestSession.cs",
-			"settings":
-			{
-				"buffer_size": 1008,
-				"line_ending": "Unix"
 			}
 		}
 	],
@@ -388,6 +348,12 @@
 	],
 	"file_history":
 	[
+		"/E/sandbox/websocket-chat/source/lib/js/angular.js",
+		"/C/Users/redpa_000/Desktop/Today",
+		"/C/Users/redpa_000/Desktop/test/script.js",
+		"/E/MusicStore-master/test/MusicStore.Test/GenreMenuComponentTest.cs",
+		"/E/MusicStore-master/test/MusicStore.Test/HomeControllerTest.cs",
+		"/E/MusicStore-master/test/MusicStore.Test/TestSession.cs",
 		"/E/sandbox/websocket-chat/source/style/sass/modal.sass",
 		"/E/sandbox/websocket-chat/source/style/sass/style.sass",
 		"/C/Users/redpa_000/Desktop/temp/notes/list",
@@ -509,13 +475,7 @@
 		"/E/code/javascript/site/script.js",
 		"/E/code/javascript/site/exceptions.js",
 		"/E/code/javascript/site/bool.js",
-		"/C/Users/redpa_000/Desktop/temp/notes/head.html",
-		"/E/code/examples/simple_site/index.html",
-		"/D/downloads/iExplorer_3.2.0.1 (Win)/iExplorer_3.2.0.1 Serial.txt",
-		"/C/Users/redpa_000/AppData/Local/clink/clink.log",
-		"/D/systemdata/system_temp/Rar$DIa0.449/CurseQuery.sql",
-		"/D/virtual_machines/yosemite - Copy/OS X Yosemite.vmx",
-		"/E/code/web_notepad.html"
+		"/C/Users/redpa_000/Desktop/temp/notes/head.html"
 	],
 	"find":
 	{
@@ -635,7 +595,7 @@
 	"groups":
 	[
 		{
-			"selected": 9,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -644,15 +604,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1855,
+						"buffer_size": 1897,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1411,
-								1411
+								1454,
+								1454
 							]
 						],
 						"settings":
@@ -662,55 +622,27 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 315.0,
+						"translation.y": 180.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "/C/Users/redpa_000/Desktop/test/script.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 160,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								160,
-								160
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "source/view/jade/partial/auth.jade",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1237,
+						"buffer_size": 1257,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								659,
-								659
+								726,
+								726
 							]
 						],
 						"settings":
@@ -722,40 +654,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "/C/Users/redpa_000/Desktop/Today",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 32,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								32,
-								32
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
+					"buffer": 2,
 					"file": "source/view/jade/partial/about.jade",
 					"semi_transient": false,
 					"settings":
@@ -780,11 +683,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 3,
 					"file": "source/script/modal.js",
 					"semi_transient": false,
 					"settings":
@@ -803,17 +706,18 @@
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 4,
 					"file": "source/script/chatscript.js",
 					"semi_transient": false,
 					"settings":
@@ -825,8 +729,8 @@
 						"selection":
 						[
 							[
-								1044,
-								1044
+								130,
+								130
 							]
 						],
 						"settings":
@@ -835,101 +739,11 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 64.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "/E/MusicStore-master/test/MusicStore.Test/GenreMenuComponentTest.cs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1710,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								753,
-								757
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C#/C#.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": -0.0,
-						"translation.y": 135.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "/E/MusicStore-master/test/MusicStore.Test/HomeControllerTest.cs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3782,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1669,
-								1669
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C#/C#.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": -0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "/E/MusicStore-master/test/MusicStore.Test/TestSession.cs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1008,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C#/C#.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]

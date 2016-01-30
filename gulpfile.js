@@ -7,7 +7,7 @@ var gulp = require('gulp'),
 	runSequence = require('run-sequence');
 
 
-var host = '0.0.0.0';
+var host = 'localhost';
 var port = '80';
 
 function swallowError(error){  
