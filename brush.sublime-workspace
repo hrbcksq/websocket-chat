@@ -144,18 +144,18 @@
 	"buffers":
 	[
 		{
-			"file": "source/view/jade/index.jade",
+			"file": "source/view/jade/partial/auth.jade",
 			"settings":
 			{
-				"buffer_size": 1897,
+				"buffer_size": 1444,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "source/view/jade/partial/auth.jade",
+			"file": "source/view/jade/index.jade",
 			"settings":
 			{
-				"buffer_size": 1257,
+				"buffer_size": 1897,
 				"line_ending": "Windows"
 			}
 		},
@@ -176,11 +176,38 @@
 			}
 		},
 		{
+			"file": "source/style/sass/style.sass",
+			"settings":
+			{
+				"buffer_size": 1738,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "source/script/chatscript.js",
 			"settings":
 			{
-				"buffer_size": 3331,
+				"buffer_size": 3269,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Searching 14426 files for \"this.sender\" (case sensitive)\n\nE:\\sandbox\\websocket-chat\\build\\script\\chatscript.js:\n   43          this.messages = [];\n   44          \n   45:         this.sender = userService.name;\n   46:         // this.sender = guid();\n   47  \n   48          this.lastsender;\n   ..\n   50          this.clearMessage = function() {\n   51              this.message = {\n   52:                 'sender': this.sender,\n   53                  'body': ''\n   54              };\n   ..\n   62  \n   63          this.addMessage = function(message) {\n   64:             message.self = !message.system && message.sender === this.sender;\n   65              message.sender = this.lastsender === message.sender && this.lastsender ? message.sender = '' : this.lastsender = message.sender;\n   66              this.messages.push(message);\n\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\normalize-package-data\\node_modules\\validate-npm-package-license\\node_modules\\spdx-correct\\node_modules\\spdx-license-ids\\spdx-license-ids.json\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\normalize-package-data\\node_modules\\validate-npm-package-license\\node_modules\\spdx-expression-parse\\node_modules\\spdx-exceptions\\index.json\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\normalize-package-data\\node_modules\\validate-npm-package-license\\node_modules\\spdx-expression-parse\\node_modules\\spdx-exceptions\\package.json\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\normalize-package-data\\node_modules\\validate-npm-package-license\\node_modules\\spdx-expression-parse\\node_modules\\spdx-exceptions\\README.md\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\normalize-package-data\\node_modules\\validate-npm-package-license\\node_modules\\spdx-expression-parse\\node_modules\\spdx-license-ids\\package.json\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\normalize-package-data\\node_modules\\validate-npm-package-license\\node_modules\\spdx-expression-parse\\node_modules\\spdx-license-ids\\README.md\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\normalize-package-data\\node_modules\\validate-npm-package-license\\node_modules\\spdx-expression-parse\\node_modules\\spdx-license-ids\\spdx-license-ids.json\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\read-pkg-up\\node_modules\\read-pkg\\node_modules\\load-json-file\\node_modules\\parse-json\\node_modules\\error-ex\\node_modules\\is-arrayish\\.editorconfig\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\read-pkg-up\\node_modules\\read-pkg\\node_modules\\load-json-file\\node_modules\\parse-json\\node_modules\\error-ex\\node_modules\\is-arrayish\\.istanbul.yml\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\read-pkg-up\\node_modules\\read-pkg\\node_modules\\load-json-file\\node_modules\\parse-json\\node_modules\\error-ex\\node_modules\\is-arrayish\\.npmignore\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\read-pkg-up\\node_modules\\read-pkg\\node_modules\\load-json-file\\node_modules\\parse-json\\node_modules\\error-ex\\node_modules\\is-arrayish\\.travis.yml\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\read-pkg-up\\node_modules\\read-pkg\\node_modules\\load-json-file\\node_modules\\parse-json\\node_modules\\error-ex\\node_modules\\is-arrayish\\index.js\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\read-pkg-up\\node_modules\\read-pkg\\node_modules\\load-json-file\\node_modules\\parse-json\\node_modules\\error-ex\\node_modules\\is-arrayish\\LICENSE\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\read-pkg-up\\node_modules\\read-pkg\\node_modules\\load-json-file\\node_modules\\parse-json\\node_modules\\error-ex\\node_modules\\is-arrayish\\package.json\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\read-pkg-up\\node_modules\\read-pkg\\node_modules\\load-json-file\\node_modules\\parse-json\\node_modules\\error-ex\\node_modules\\is-arrayish\\README.md\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp-clean\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\normalize-package-data\\node_modules\\validate-npm-package-license\\node_modules\\spdx-correct\\node_modules\\spdx-license-ids\\package.json\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp-clean\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\normalize-package-data\\node_modules\\validate-npm-package-license\\node_modules\\spdx-correct\\node_modules\\spdx-license-ids\\spdx-license-ids.json\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp-clean\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\normalize-package-data\\node_modules\\validate-npm-package-license\\node_modules\\spdx-expression-parse\\node_modules\\spdx-exceptions\\index.json\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp-clean\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\normalize-package-data\\node_modules\\validate-npm-package-license\\node_modules\\spdx-expression-parse\\node_modules\\spdx-exceptions\\package.json\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp-clean\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\normalize-package-data\\node_modules\\validate-npm-package-license\\node_modules\\spdx-expression-parse\\node_modules\\spdx-exceptions\\README.md\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp-clean\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\normalize-package-data\\node_modules\\validate-npm-package-license\\node_modules\\spdx-expression-parse\\node_modules\\spdx-license-ids\\LICENSE\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp-clean\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\normalize-package-data\\node_modules\\validate-npm-package-license\\node_modules\\spdx-expression-parse\\node_modules\\spdx-license-ids\\package.json\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp-clean\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\normalize-package-data\\node_modules\\validate-npm-package-license\\node_modules\\spdx-expression-parse\\node_modules\\spdx-license-ids\\README.md\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp-clean\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\normalize-package-data\\node_modules\\validate-npm-package-license\\node_modules\\spdx-expression-parse\\node_modules\\spdx-license-ids\\spdx-license-ids.json\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp-connect\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\normalize-package-data\\node_modules\\validate-npm-package-license\\node_modules\\spdx-correct\\node_modules\\spdx-license-ids\\package.json\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp-connect\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\normalize-package-data\\node_modules\\validate-npm-package-license\\node_modules\\spdx-correct\\node_modules\\spdx-license-ids\\README.md\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp-connect\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\normalize-package-data\\node_modules\\validate-npm-package-license\\node_modules\\spdx-correct\\node_modules\\spdx-license-ids\\spdx-license-ids.json\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp-jade\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\normalize-package-data\\node_modules\\validate-npm-package-license\\node_modules\\spdx-correct\\node_modules\\spdx-license-ids\\package.json\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp-jade\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\normalize-package-data\\node_modules\\validate-npm-package-license\\node_modules\\spdx-correct\\node_modules\\spdx-license-ids\\spdx-license-ids.json\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp-jade\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\normalize-package-data\\node_modules\\validate-npm-package-license\\node_modules\\spdx-expression-parse\\node_modules\\spdx-exceptions\\index.json\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp-jade\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\normalize-package-data\\node_modules\\validate-npm-package-license\\node_modules\\spdx-expression-parse\\node_modules\\spdx-exceptions\\package.json\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp-jade\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\normalize-package-data\\node_modules\\validate-npm-package-license\\node_modules\\spdx-expression-parse\\node_modules\\spdx-exceptions\\README.md\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp-jade\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\normalize-package-data\\node_modules\\validate-npm-package-license\\node_modules\\spdx-expression-parse\\node_modules\\spdx-license-ids\\LICENSE\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp-jade\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\normalize-package-data\\node_modules\\validate-npm-package-license\\node_modules\\spdx-expression-parse\\node_modules\\spdx-license-ids\\package.json\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp-jade\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\normalize-package-data\\node_modules\\validate-npm-package-license\\node_modules\\spdx-expression-parse\\node_modules\\spdx-license-ids\\README.md\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp-jade\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\normalize-package-data\\node_modules\\validate-npm-package-license\\node_modules\\spdx-expression-parse\\node_modules\\spdx-license-ids\\spdx-license-ids.json\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp-open\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\normalize-package-data\\node_modules\\validate-npm-package-license\\node_modules\\spdx-correct\\node_modules\\spdx-license-ids\\package.json\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp-open\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\normalize-package-data\\node_modules\\validate-npm-package-license\\node_modules\\spdx-correct\\node_modules\\spdx-license-ids\\spdx-license-ids.json\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp-open\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\normalize-package-data\\node_modules\\validate-npm-package-license\\node_modules\\spdx-expression-parse\\node_modules\\spdx-exceptions\\index.json\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp-open\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\normalize-package-data\\node_modules\\validate-npm-package-license\\node_modules\\spdx-expression-parse\\node_modules\\spdx-exceptions\\package.json\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp-open\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\normalize-package-data\\node_modules\\validate-npm-package-license\\node_modules\\spdx-expression-parse\\node_modules\\spdx-exceptions\\README.md\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp-open\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\normalize-package-data\\node_modules\\validate-npm-package-license\\node_modules\\spdx-expression-parse\\node_modules\\spdx-license-ids\\LICENSE\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp-open\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\normalize-package-data\\node_modules\\validate-npm-package-license\\node_modules\\spdx-expression-parse\\node_modules\\spdx-license-ids\\package.json\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp-open\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\normalize-package-data\\node_modules\\validate-npm-package-license\\node_modules\\spdx-expression-parse\\node_modules\\spdx-license-ids\\README.md\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp-open\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\normalize-package-data\\node_modules\\validate-npm-package-license\\node_modules\\spdx-expression-parse\\node_modules\\spdx-license-ids\\spdx-license-ids.json\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp-sass\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\normalize-package-data\\node_modules\\validate-npm-package-license\\node_modules\\spdx-correct\\node_modules\\spdx-license-ids\\package.json\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp-sass\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\normalize-package-data\\node_modules\\validate-npm-package-license\\node_modules\\spdx-correct\\node_modules\\spdx-license-ids\\spdx-license-ids.json\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp-sass\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\normalize-package-data\\node_modules\\validate-npm-package-license\\node_modules\\spdx-expression-parse\\node_modules\\spdx-exceptions\\index.json\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp-sass\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\normalize-package-data\\node_modules\\validate-npm-package-license\\node_modules\\spdx-expression-parse\\node_modules\\spdx-exceptions\\package.json\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp-sass\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\normalize-package-data\\node_modules\\validate-npm-package-license\\node_modules\\spdx-expression-parse\\node_modules\\spdx-exceptions\\README.md\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp-sass\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\normalize-package-data\\node_modules\\validate-npm-package-license\\node_modules\\spdx-expression-parse\\node_modules\\spdx-license-ids\\LICENSE\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp-sass\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\normalize-package-data\\node_modules\\validate-npm-package-license\\node_modules\\spdx-expression-parse\\node_modules\\spdx-license-ids\\package.json\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp-sass\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\normalize-package-data\\node_modules\\validate-npm-package-license\\node_modules\\spdx-expression-parse\\node_modules\\spdx-license-ids\\README.md\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\gulp-sass\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\normalize-package-data\\node_modules\\validate-npm-package-license\\node_modules\\spdx-expression-parse\\node_modules\\spdx-license-ids\\spdx-license-ids.json\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\run-sequence\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\normalize-package-data\\node_modules\\validate-npm-package-license\\node_modules\\spdx-correct\\node_modules\\spdx-license-ids\\package.json\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\run-sequence\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\normalize-package-data\\node_modules\\validate-npm-package-license\\node_modules\\spdx-correct\\node_modules\\spdx-license-ids\\README.md\nUnable to open E:\\sandbox\\websocket-chat\\node_modules\\run-sequence\\node_modules\\gulp-util\\node_modules\\dateformat\\node_modules\\meow\\node_modules\\normalize-package-data\\node_modules\\validate-npm-package-license\\node_modules\\spdx-correct\\node_modules\\spdx-license-ids\\spdx-license-ids.json\nE:\\sandbox\\websocket-chat\\source\\script\\chatscript.js:\n   43          this.messages = [];       \n   44          \n   45:         // this.sender = guid();\n   46  \n   47          this.lastsender;\n   ..\n   49          this.clearMessage = function() {\n   50              this.message = {\n   51:                 'sender': this.sender,\n   52                  'body': ''\n   53              };\n   ..\n   61  \n   62          this.addMessage = function(message) {\n   63:             message.self = !message.system && message.sender === this.sender;\n   64              message.sender = this.lastsender === message.sender && this.lastsender ? message.sender = '' : this.lastsender = message.sender;\n   65              this.messages.push(message);\n\n7 matches across 2 files\n",
+			"settings":
+			{
+				"buffer_size": 17690,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"contents": "Grimes, Crystal Castles, Purity Ring, M.I.A., Die Antwoord\n\n\nLykke Li - Little Bit (Shadows On Stars Cover)\nPictureplane - Real is a Feeling (Grimes Remix)\n\nPurity Ring - Odebear\n\nCHVRCHES - The Mother We Share\nHAERTS - All The Days\n\nBrothers in Law - Holy Weekend\n\nGrimes Oblivion (Wilsen Cover)",
+			"settings":
+			{
+				"buffer_size": 296,
+				"line_ending": "Windows",
+				"name": "Grimes, Crystal Castles, Purity Ring, M.I.A., Die"
 			}
 		}
 	],
@@ -192,9 +219,13 @@
 	"command_palette":
 	{
 		"height": 400.0,
-		"last_filter": "ss",
+		"last_filter": "sass",
 		"selected_items":
 		[
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
 			[
 				"ss",
 				"Set Syntax: HTML"
@@ -249,10 +280,6 @@
 			],
 			[
 				"sa",
-				"Set Syntax: Sass"
-			],
-			[
-				"sass",
 				"Set Syntax: Sass"
 			],
 			[
@@ -348,6 +375,12 @@
 	],
 	"file_history":
 	[
+		"/E/sandbox/ng-app-rs/source/server/server.js",
+		"/E/sandbox/nodepad/datacontext.txt",
+		"/E/sandbox/nodepad/html/base",
+		"/C/Users/redpa_000/Desktop/base",
+		"/E/sandbox/websocket-chat/gulpfile.js",
+		"/D/downloads/Addition.txt",
 		"/E/sandbox/websocket-chat/source/lib/js/angular.js",
 		"/C/Users/redpa_000/Desktop/Today",
 		"/C/Users/redpa_000/Desktop/test/script.js",
@@ -469,13 +502,7 @@
 		"/E/code/javascript/site/objects.js",
 		"/E/code/javascript/site/numbers.js",
 		"/E/code/javascript/site/null_undefined.js",
-		"/E/code/javascript/site/instructions.js",
-		"/E/code/javascript/site/types.js",
-		"/E/code/javascript/site/string.js",
-		"/E/code/javascript/site/script.js",
-		"/E/code/javascript/site/exceptions.js",
-		"/E/code/javascript/site/bool.js",
-		"/C/Users/redpa_000/Desktop/temp/notes/head.html"
+		"/E/code/javascript/site/instructions.js"
 	],
 	"find":
 	{
@@ -486,6 +513,8 @@
 		"height": 104.0,
 		"where_history":
 		[
+			"<current file>",
+			""
 		]
 	},
 	"find_state":
@@ -493,6 +522,9 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"this.sender",
+			"text-indent",
+			"строчные",
 			"\n    ",
 			"button",
 			",",
@@ -583,6 +615,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"userService.name",
 			"product.name",
 			" "
 		],
@@ -595,54 +628,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 5,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "source/view/jade/index.jade",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1897,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1454,
-								1454
-							]
-						],
-						"settings":
-						{
-							"easy_motion_mode": false,
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 180.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "source/view/jade/partial/auth.jade",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1257,
+						"buffer_size": 1444,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								726,
-								726
+								1436,
+								1436
 							]
 						],
 						"settings":
@@ -654,7 +657,37 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "source/view/jade/index.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1897,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								947,
+								947
+							]
+						],
+						"settings":
+						{
+							"easy_motion_mode": false,
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -699,8 +732,8 @@
 						"selection":
 						[
 							[
-								493,
-								493
+								1422,
+								1422
 							]
 						],
 						"settings":
@@ -709,7 +742,7 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
+						"translation.x": -0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -718,19 +751,48 @@
 				},
 				{
 					"buffer": 4,
-					"file": "source/script/chatscript.js",
+					"file": "source/style/sass/style.sass",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3331,
+						"buffer_size": 1738,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								130,
-								130
+								700,
+								700
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "source/script/chatscript.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3269,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2893,
+								2893
 							]
 						],
 						"settings":
@@ -740,10 +802,108 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
+						"translation.y": 990.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17690,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										178,
+										189
+									],
+									[
+										228,
+										239
+									],
+									[
+										413,
+										424
+									],
+									[
+										621,
+										632
+									],
+									[
+										17062,
+										17073
+									],
+									[
+										17247,
+										17258
+									],
+									[
+										17455,
+										17466
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								413,
+								424
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 296,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								179,
+								179
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Grimes, Crystal Castles, Purity Ring, M.I.A., Die",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
 					"type": "text"
 				}
 			]

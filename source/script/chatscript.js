@@ -40,28 +40,27 @@
     });
 
     app.controller('MessengerController', function($timeout, userService) {
-        this.messages = [];
+        this.messages = [];       
         
-        this.sender = userService.name;
-        // this.sender = guid();
+        // userService.name = guid();
 
         this.lastsender;
 
         this.clearMessage = function() {
-            this.message = {
-                'sender': this.sender,
+            this.message = {                
                 'body': ''
             };
         };
 
         this.sendMessage = function(message) {
+            message.sender = userService.name;
             // this.socket.send(JSON.stringify(message));
             this.addMessage(message);
             this.clearMessage();
         };
 
         this.addMessage = function(message) {
-            message.self = !message.system && message.sender === this.sender;
+            message.self = !message.system && message.sender === userService.name;
             message.sender = this.lastsender === message.sender && this.lastsender ? message.sender = '' : this.lastsender = message.sender;
             this.messages.push(message);
             $timeout(function() {
