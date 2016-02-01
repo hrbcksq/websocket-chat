@@ -19,9 +19,10 @@
             userService.name = this.name;
             userService.id = guid();
             if (this.rememberme) {
-                $cookies.set('name', userService.name);
-                $cookies.set('id', userService.id);
-            }              
+                $cookies.put('name', userService.name);
+                $cookies.put('id', userService.id);
+            }           
+            angular.element("#auth-view").modal('hide');   
         };
 
         this.SingUp = function(){
@@ -33,11 +34,7 @@
         this.Login = function(){
             userService.name = $cookies.get('name');
             userService.id = $cookies.get('id');
-        };
-
-        this.IsValid = function() {
-            return this.name && this.name.length > 3 && this.name.length < 10;
-        };
+        };       
 
         $cookies.get('name') ? this.Login() : this.SingUp();
     });

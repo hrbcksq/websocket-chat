@@ -1,23 +1,27 @@
 #auth-view.modal.fade(data-backdrop="static")
 	.modal-dialog.modal-sm.modal-md
-		form(name="loginform", ng-controller='AuthorizeController as auth', ng-submit="login-form.$valid && auth.SingIn()", novalidate)#login-form.modal-content
+		form(name="loginform", ng-controller='AuthorizeController as auth', ng-submit="auth.SingIn()", novalidate)#login-form.modal-content
 			.modal-header
-				button.close(data-dismiss='modal', area-label="Close", ng-disabled="!auth.IsValid()")
+				button.close(data-dismiss='modal', area-label="Close", ng-disabled="!loginform.$valid")
 					span(area-hidden='true') &times;
-				h4.modal-title Please sing up			
+				h4.modal-title 
+					.glyphicon.glyphicon-leaf
+					span   Sing up			
 			.modal-body 				
-					.form-group
+					.form-group(ng-class="{'has-error' : !loginform.logininput.$valid}")
 						label(for="login-input") Login
-						input#login-input.form-control(name='logininput',type='text', placeholder="Enter your login", ng-model='auth.name', required="true", ng-minlength="5", ng-maxlength="15")
-						div(ng-messages="loginform.logininput.$error", class="help-block", role="alert")
-							div(ng-message="required") You didn't enter a field
+						input#login-input.form-control(name='logininput', type='text', placeholder="Enter your login", ng-model='auth.name', required="true", ng-minlength="5", ng-maxlength="15")						
+					.form-group.form-group-sm.small.float
+						div.text-danger.text-center(ng-messages="loginform.logininput.$error", role="alert")
+							div(ng-message="required") Please enter your login
 							div(ng-message="minlength") Your field is too short
-							div(ng-message="maxlength") Your field is too long
-					.form-group
+							div(ng-message="maxlength") Your field is too long						
+					.form-group						
 						.checkbox
 							label
-								input(type='checkbox', ng-model="auth.rememberme", value='true')
+								input(type='checkbox', ng-model="auth.rememberme", value='true', required='false')
 								span Remember me
 			.modal-footer
-				button.btn.btn-primary(type="submit", ng-disabled="!auth.IsValid()") Sing up
-				button.btn.btn-default(data-dissmiss="modal", ng-disabled="!auth.IsValid()") Close
+				{{loginform.$valid}}
+				button.btn.btn-primary(type="submit", ng-disabled="!loginform.$valid") Sing up
+				button.btn.btn-default(data-dissmiss="modal", ng-disabled="!loginform.$valid") Close
